@@ -1,0 +1,168 @@
+{
+  "resource_version": "1.0.0",
+  "book_edition": "1.0",
+  "title": "حزمة التطبيقات العملية لقراء سير عمل موثوقة متعددة الوكلاء باستخدام Herdr — الطبعة المصرية",
+  "language": "ar-EG",
+  "repository": "https://github.com/t945935/herdr-multi-agent-reader-ar-eg",
+  "rights_authority": "أكّد صاحب الصلاحية الإذن بترجمة موارد القارئ العربية وتوزيعها العام لهذا الإصدار.",
+  "license": "لا يمنح هذا الإصدار ترخيصًا عامًا مفتوح المصدر أو إذنًا أوسع بإعادة التوزيع أو الاستخدام التجاري.",
+  "public_release": true,
+  "files": {
+    ".gitignore": {
+      "bytes": 93,
+      "sha256": "cb4c88838f881e9fbde264a8566044609494c4c5588ff9ff94685a6f045c3563"
+    },
+    "CHANGELOG.md": {
+      "bytes": 728,
+      "sha256": "1136d6cdfb0cde9bdda1414f4ea2f3c3eee8a51f43b97f54447f993aa2af22f0"
+    },
+    "README.md": {
+      "bytes": 3739,
+      "sha256": "5c48d0d9ee230640efce20c44c48adeda7ab42b7d5879f7e10123dd28ab3ef5c"
+    },
+    "examples/README.md": {
+      "bytes": 2953,
+      "sha256": "9fb6e7a5b227254380157c7df09cc124ba8bd580f4320ed129dab2de3d6f4c2f"
+    },
+    "examples/__init__.py": {
+      "bytes": 160,
+      "sha256": "afec10f5eaf12950e9aafdc6c65d6e5012146685ae673a3025e2bee5387923f1"
+    },
+    "examples/calculator.py": {
+      "bytes": 767,
+      "sha256": "592390ec6593052d069657a4afe0fd277d93427baa829a131cec4fd2358bb571"
+    },
+    "examples/grades.py": {
+      "bytes": 2606,
+      "sha256": "3677b71e1f811c11aa065d53825f6a815b31544797777870e6211a189d9f273d"
+    },
+    "examples/handoff.py": {
+      "bytes": 1864,
+      "sha256": "d66aa40a785c25198fd26293e08ca8c76cc8f0d5bcb83302453dbbf50531f1e9"
+    },
+    "examples/pipeline.py": {
+      "bytes": 2528,
+      "sha256": "33202c8890e52ec2aec520a6d6e74ef04f684dafeaeea4aeffbda4c98007dc9e"
+    },
+    "examples/prompts/backend.md": {
+      "bytes": 591,
+      "sha256": "6d0390c48324fb0d0d57452bfe9190cc006f8aaf14b520ee01683d8a1a2f1750"
+    },
+    "examples/prompts/database.md": {
+      "bytes": 614,
+      "sha256": "530bf7a5cdf152da85b7c29cc7d61f2ec8c132921634ca017713aa51937cb020"
+    },
+    "examples/prompts/developer.md": {
+      "bytes": 1150,
+      "sha256": "952f7f72cccc442b053b6e75ff91a1e6884d6813a2f470c57da414f443cd2f1c"
+    },
+    "examples/prompts/fact-checker.md": {
+      "bytes": 584,
+      "sha256": "b9c7db8a1a8fe94a58a729895849a98f74594a90d556d9c62205763aae9c03fb"
+    },
+    "examples/prompts/frontend.md": {
+      "bytes": 575,
+      "sha256": "9daf5bc28330ee50d6c1648d9105f94703383cc20f904d51b11eaec977326bb7"
+    },
+    "examples/prompts/grades-developer.md": {
+      "bytes": 1653,
+      "sha256": "cab9177e2b68d2480c8f24a236fc682e072b8846c6462c151f12aac0378595c0"
+    },
+    "examples/prompts/grades-qa.md": {
+      "bytes": 1496,
+      "sha256": "6155ccd11cc06f82319c39b3d1805619996d771aa45a1be1d4544802b1e910c2"
+    },
+    "examples/prompts/manager.md": {
+      "bytes": 1264,
+      "sha256": "e3fb0ad63726f67e803370e185e6837066561c0da17b101ed5f6a9f3a674269b"
+    },
+    "examples/prompts/qa.md": {
+      "bytes": 614,
+      "sha256": "690ce540236163c8d2e22a1777676ba1d0bff655917823b33fe6f6218fdcd4b7"
+    },
+    "examples/prompts/receipt-smoke.md": {
+      "bytes": 799,
+      "sha256": "480cc96cbf1efd24b3753b30a4f05cff31c4ffb36ee6084c799ffe8fb7dc0bc8"
+    },
+    "examples/prompts/researcher.md": {
+      "bytes": 977,
+      "sha256": "34285c0ed39f67b7739ae08b8a174bed4bae3cd059f4be8c394dfb39070011d1"
+    },
+    "examples/prompts/reviewer-a.md": {
+      "bytes": 1085,
+      "sha256": "b60067c12437cc1067c10cae4c77020019fb52598737e7359a1d6288fbd5c71a"
+    },
+    "examples/prompts/reviewer-b.md": {
+      "bytes": 1158,
+      "sha256": "7b32125f0face0494beaa14cf67bac41d9762b6e62f215b116a440f678e0d65a"
+    },
+    "examples/queue.py": {
+      "bytes": 6147,
+      "sha256": "9c250214045cf7aaf7e0b234815be6a45480c3b85063c5082e86f2ba47857420"
+    },
+    "examples/research-evidence.json": {
+      "bytes": 2512,
+      "sha256": "434e6148c6a349672033e95f765d8acb2eb389c2b4ad287bb2e91d91e5dde7a3"
+    },
+    "examples/research.py": {
+      "bytes": 2920,
+      "sha256": "6475617c6ccc4d31755fe49d44e110cd7cc95e8d4eb5ab63b5a29cb80c595540"
+    },
+    "examples/task_manager/__init__.py": {
+      "bytes": 59,
+      "sha256": "abad7ad27adeda86e370cb30616015301a2e5f837d22c082655ce46330a9fc44"
+    },
+    "examples/task_manager/db.py": {
+      "bytes": 2001,
+      "sha256": "4927fb8c8c3bb55c1be15203dd86f9bfb76b620e53751cbcd16437465bc9b54b"
+    },
+    "examples/task_manager/main.py": {
+      "bytes": 2441,
+      "sha256": "06fe44a03b38c6c5639a60d5de571281f09f4a8253c321d42f96bdf9613fec93"
+    },
+    "examples/task_manager/static/app.js": {
+      "bytes": 2346,
+      "sha256": "646730f0352b8e1c36d1bd88e38c5fd36225a0f7e80c2ec3fe80eb9fce1003e0"
+    },
+    "examples/task_manager/static/index.html": {
+      "bytes": 711,
+      "sha256": "5456e2a479e309554f4942ed7b42a77b05c80b1344ebb1d5509855d8be938a6c"
+    },
+    "examples/task_manager/static/style.css": {
+      "bytes": 689,
+      "sha256": "1faac66d1778f226b2e1aac5448f10eefe26d405bdcb147bea04710c585be639"
+    },
+    "requirements-reader.txt": {
+      "bytes": 61,
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835"
+    },
+    "requirements.txt": {
+      "bytes": 61,
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835"
+    },
+    "scripts/make_handoff.py": {
+      "bytes": 684,
+      "sha256": "1ab69a4ccff9b051ac7928c81dcfe48ef1aac8c6a187569f03ed0a2fb6e75eb6"
+    },
+    "scripts/probe_herdr.py": {
+      "bytes": 6754,
+      "sha256": "aab03838ca1c2bd989274b3561fb7407d824a1cb0047d0740f7d45f5dc580d32"
+    },
+    "scripts/team.py": {
+      "bytes": 2858,
+      "sha256": "4cb0d138eadcf4f5632de339acad6d54ab4222718e36877e925c36d4d9a9cb8d"
+    },
+    "tests/test_api.py": {
+      "bytes": 2597,
+      "sha256": "9ea5606ed51e3690b12f4744ce4a42b476bb101018ea42b30257aca778d3014c"
+    },
+    "tests/test_contracts.py": {
+      "bytes": 5608,
+      "sha256": "d96e0708fa3a4212e7c1b6f71b9ace5d9582a8427db7367bc7996dde1cff9c42"
+    },
+    "tests/test_queue_concurrency.py": {
+      "bytes": 579,
+      "sha256": "bf949e76e4b9769caa17ccaabe9a30d89b248bf21d32b00e9cbe00583a0c5e16"
+    }
+  }
+}
